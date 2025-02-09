@@ -1,3 +1,4 @@
+#define _WIN32_WINNT 0x0501 // Supports Windows XP and later
 #include <windows.h>
 
 // Function prototypes
