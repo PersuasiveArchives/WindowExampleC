@@ -30,6 +30,9 @@ int main() {
         return 1;
     }
 
+     CreateWindow("STATIC", "Example", WS_VISIBLE | WS_CHILD, 
+                 100, 50, 100, 30, hwnd, NULL, wc.hInstance, NULL);
+
     // Create buttons
     CreateWindow("BUTTON", "OK", WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON, 
                  50, 100, 80, 30, hwnd, (HMENU)1, wc.hInstance, NULL);
